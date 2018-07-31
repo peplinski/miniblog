@@ -1,0 +1,44 @@
+<!doctype html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorate="~{fragments/layout}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bloger</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li>Home <a href="home.html"></a></li>
+            <li>Sign in <a href="singin.html"></a></li>
+            <li>Sign up<a href="singup.html"></a></li>
+            <li>About<a href="about.html"></a></li>
+
+        </ul>
+    </nav>
+</header>
+<h1>Register</h1>
+<form th:action="">
+    <div>
+        <label for="email">Email</label>
+        <input type="text" name="email">
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password">
+    </div>
+    <div>
+        <label for="">Acount Name</label>
+        <input type="text" name="acount name">
+    </div>
+    <button>Register</button>
+</form>
+
+
+<footer> <p> Copyring &copy 2018</p></footer>
+</body>
+</html>
